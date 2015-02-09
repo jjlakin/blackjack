@@ -1,7 +1,6 @@
 function Card (info) {
-	this.info = info
-
-};
+	this.info = info;
+}
 
 
 
