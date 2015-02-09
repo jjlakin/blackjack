@@ -1,7 +1,8 @@
 BLACKJACK GAME
 
 Blackjack game to experiment with node
+--------------------------------------
 
-javascript logic
+  javascript logic
 
-  Card and deck classes created as independant classes for use in other card games.
+    Card and deck classes created as independant classes for use in other card games.
