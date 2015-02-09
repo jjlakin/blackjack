@@ -8,12 +8,18 @@ var card;
 		card = new Card(info);
 	});
 
-	it('should have a name', function(){
+	it('has a name', function(){
 		expect(card.info.name).toEqual(11);
 	});
 
-	it('should have a value', function(){
-		expect(card.info.value).toEqual(10);
+	it('starts face down', function() {
+		expect(card.isFaceDown).toBe(true);
+	});
+
+	it('can be turned over', function() {
+		card.flip();
+
+		expect(card.isFaceDown).toBe(false);
 	});
 
 });
